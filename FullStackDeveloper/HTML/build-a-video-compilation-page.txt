@@ -1,0 +1,54 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Video Compilation Page</title>
+</head>
+
+<body>
+    <main>
+        <h1>Membuat Video Kompilasi</h1>
+        <p>Ini ceritanya deskripsi ya gais</p>
+
+        <section>
+            <h2>Video 1</h2>
+            <p>Ini hanyalah penjelasan gimmick</p>
+            <iframe
+                height="400"
+                width="600"
+                title="Video Pertama"
+                src="https://www.youtube.com/embed/I0_951_MPE0"
+            ></iframe>
+        </section>
+        
+        <section>
+            <h2>Video 2</h2>
+            <p>Ini hanyalah penjelasan gimmick</p>
+            <iframe
+                height="400"
+                width="600"
+                title="Video Kedua"
+                src="https://www.youtube.com/embed/I0_951_MPE0"
+            ></iframe>
+        </section>
+
+        <section>
+            <h2>Video 3</h2>
+            <p>Ini hanyalah penjelasan gimmick</p>
+            <iframe
+                height="400"
+                width="600"
+                title="Video Ketiga"
+                src="https://www.youtube.com/embed/I0_951_MPE0"
+            ></iframe>
+        </section>
+    </main>
+</body>
+
+</html>
+
+** end of index.html **
+

@@ -1,0 +1,63 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Survey Form</title>
+</head>
+
+<body>
+  <h1 id="title">Ceritanya Survey Pengangguran</h1>
+  <p id="description">Untuk mengetahui kenapa masih nganggur?</p>
+  <form id="survey-form">
+    <fieldset>
+      <legend>Personal Information</legend>
+      <div>
+        <label id="name-label" for="name">Nama:</label>
+        <input id="name" type="text" placeholder="Galih" required>
+      </div>
+      <div>
+        <label id="email-label" for="email">Email:</label>
+        <input id="email" type="email" placeholder="galih@email.com" required>
+      </div>
+      <div>
+        <label id="number-label" for="number">Age (optional):</label>
+        <input id="number" type="number" placeholder="21" min="17" max="21">
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Questions</legend>
+      <div>
+        <label for="dropdown">Kenapa masih nganggur?</label>
+        <select id="dropdown" name="cause">
+        <option value="pemerintah">Pemerintah<option>
+        <option value="sendiri">Sendiri<option>
+      </select>
+      </div>
+      <div>
+        <label>Bagaimana keadaan sekarang?</label>
+        <input id="gila" type="checkbox" value="gila">
+        <label for="gila">gila</label>
+        <input id="bahagia" type="checkbox" value="bahagia">
+        <label for="bahagia">bahagia</label>
+      </div>
+      <div>
+        <label>Kamu suka saya ga?</label>
+        <input type="radio" value="yes" name="cinta">
+        <label>iya</label>
+        <input type="radio" value="no" name="cinta">
+        <label>no</label>
+      </div>
+      <label>Comments!</label>
+      <textarea></textarea>
+    </fieldset>
+    <button id="submit" type="submit">Submit</button>
+  </form>
+</body>
+
+</html>
+
+** end of index.html **
+
